@@ -1,0 +1,113 @@
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            background-image: url('images/donationbg.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            /* margin: 5%; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        main{
+            margin-bottom: 3%;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 500px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        p {
+            margin-bottom: 0px;
+        }
+
+        .donate_btn p{
+            color: white;
+        }
+
+        .donation-form {
+            text-align: left;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .fixed-amounts {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+        }
+
+        .fixed-amounts button {
+            flex-grow: 1;
+            margin-right: 5px;
+            
+        }
+
+        .payment-options {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+        }
+
+        .payment-options button {
+            flex-grow: 1;
+            margin: 3px;
+        }
+
+        .payment-methods button {
+            flex-grow: 1;
+            margin-bottom: 10px;
+            padding: 5px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-donate {
+            background: linear-gradient(45deg, #3498db, #67BA9D);
+            border-radius: 80px;
+            color: #fff;
+        }
+
+        .btn-donate:hover {
+            background-color: #0056b3;
+            color: #fff;
+        }
+
+        .selected {
+            border: 2px solid #007bff;
+            border-radius: 8px;
+        }
+
+        @media (max-width: 576px) {
+            .container {
+                width: 90%;
+            }
+
+            .fixed-amounts button,
+            .payment-options button,
+            .payment-methods button,
+            .btn-donate {
+                font-size: 14px;
+            }
+        }
